@@ -13,8 +13,9 @@ Una vez se descargaba la carpeta, usualmente se descarga en Downloads por lo que
 Una vez se haya descomprimido se revisa ```ls``` que haya ```cmake```luego se crea una carpeta llamada ```mkdir build``` entra a build, luego en build se escribe ``` cmake ../``` para leer la configuración, una vez se haya finalizado, al revisar el contenido de build ```ls``` entre su contenido, va a tener ```makefiles```, ahora para compilar se escribe ```make -j $(nproc)``` de manera que es mucho más rápido compilar la libreria. Para saber si funciono la instalación se debe erevisar con un ejemplo.
 ### Compilar
 Este es el código que se va a usar para la prueba:
-
-![image](https://github.com/user-attachments/assets/856188ef-1194-413b-bfe4-852208974818)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/856188ef-1194-413b-bfe4-852208974818" alt="image" width="300">
+</p>
 
 Para compilar el código se escribe en la terminal  ```g++ -I ~/Descargas/matplotplusplus-1.2.2/source/ -L ~/Descargas/matplotplusplus-1.2.2/build/source/matplot/ -L ~/Descargas/matplotplusplus-1.2.2/build/source/3rd_party/ histogram_1.cpp -lmatplot -lnodesoup -ltiff -ljpeg -lz -lpng ``` es importante que el -I y el -L tengan la ruta de donde se encuenta la carpeta ```matplotplusplus-1.2.2```.       
 ### Ejecución y reproducción
