@@ -16,8 +16,8 @@ Este es el código que se va a usar para la prueba:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/856188ef-1194-413b-bfe4-852208974818" alt="image" width="900">
 </p>
-Para compilar el código se escribe en la terminal  ```g++ -I ~/Descargas/matplotplusplus-1.2.2/source/ -L ~/Descargas/matplotplusplus-1.2.2/build/source/matplot/ -L ~/Descargas/matplotplusplus-1.2.2/build/source/3rd_party/ histogram_1.cpp -lmatplot -lnodesoup -ltiff -ljpeg -lz -lpng``` es importante que el -I y el -L tengan la ruta de donde se encuenta la carpeta ```matplotplusplus-1.2.2``` .       
 
+Para compilar el código se escribe en la terminal  ```g++ -I ~/Descargas/matplotplusplus-1.2.2/source/ -L ~/Descargas/matplotplusplus-1.2.2/build/source/matplot/ -L ~/Descargas/matplotplusplus 1.2.2/build/source/3rd_party/ histogram_1.cpp -lmatplot -lnodesoup -ltiff -ljpeg -lz -lpng``` es importante que el -I y el -L tengan la ruta de donde se encuenta la carpeta ```matplotplusplus-1.2.2```        
 ### Ejecución y reproducción
 
 Una vez se haya compilado el código quiere decir que se ha intalado correctamente la libreria, de forma que si se quiere ver la ejecución se puede escribir ```./a.out``` como en la ejecución de cualquier código en C++. 
