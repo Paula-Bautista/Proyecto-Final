@@ -14,14 +14,14 @@ Una vez se haya descomprimido se revisa ```ls``` que haya ```cmake```luego se cr
 ### Compilar
 Este es el código que se va a usar para la prueba:
 
-![image](https://github.com/user-attachments/assets/856188ef-1194-413b-bfe4-852208974818)</CENTER>
+![image](https://github.com/user-attachments/assets/856188ef-1194-413b-bfe4-852208974818)
 
 Para compilar el código se escribe en la terminal  ```g++ -I ~/Descargas/matplotplusplus-1.2.2/source/ -L ~/Descargas/matplotplusplus-1.2.2/build/source/matplot/ -L ~/Descargas/matplotplusplus-1.2.2/build/source/3rd_party/ histogram_1.cpp -lmatplot -lnodesoup -ltiff -ljpeg -lz -lpng ``` es importante que el -I y el -L tengan la ruta de donde se encuenta la carpeta ```matplotplusplus-1.2.2```.       
 ### Ejecución y reproducción
 Una vez se haya compilado el código quiere decir que se ha intalado correctamente la libreria, de forma que si se quiere ver la ejecución se puede escribir ```./a.out``` como en la ejecución de cualquier código en C++. 
-
-![image](https://github.com/user-attachments/assets/bb61b48e-cc13-47fc-b7fb-83e8cc6c3c67)</CENTER>
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bb61b48e-cc13-47fc-b7fb-83e8cc6c3c67" alt="image">
+</p>
 
 Como se evidencia en la anterior imagen, el código de ejemplo compila y se ejecuta correctamente. De manera que la libreria se ha instalado correctamente. 
 ## Referencias
