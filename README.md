@@ -30,25 +30,9 @@ Una vez se haya compilado el código quiere decir que se ha intalado correctamen
 
 Como se evidencia en la anterior imagen, el código de ejemplo compila y se ejecuta correctamente. De manera que la libreria se ha instalado correctamente. 
 ## Uso de funciones
-* `std::exp(double x)`
 
-La función `exp(x)` calcula la exponencial de `x`, es decir, \(e^x\). Permite, modelar crecimientos exponenciales, y el cálculo de funciones matemáticas.
-
-* `matplot::plot(std::vector<double>, std::vector<double>)`
-
-La función `plot()` en Matplot++ grafica datos en 2D, se usa para la visualización de funciones matemáticas y la representación de datos en gráficos.
-
-* `matplot::linspace(double a, double b, int n)`
-Genera un conjunto de `n ` etiquetas `a` y `b`, sirve para definir un rango de valores para graficación o cálculo.
-
-* `matplot::hist(string, int n)->face_color({double a, double R, double G, double B})`
-Esta función crea un histograma con `n` columnas en el histograma,  `string` Es el nombre del vector en donde estan guardados los datos. `face_color` es para el color de las columnas a, R, G, B son valores entre 0.0 y 1.0, `a` representa la opacidad y  `R`, `G`, `B` representa la escala de Red, Green, Blue. 
-
-* `matplot::xtickangle(double r)` es de diseño `r` define el ángulo de inclinación de las etiquetas en grados, en este caso del eje x, pero se puede hacer para y con `matplot::ytickangle(double r)` 
-
-________________________________________________________________________________________________________________________________________________________________________
-* `matplot::meshgrid(std::vector<double>, std::vector<double>)`  
-  La función `meshgrid()` en Matplot++ genera dos matrices a partir de dos vectores de coordenadas, permitiendo crear mallas rectangulares para la visualización de superficies en gráficos 3D.
+* `std::exp(double x)`  
+  La función `exp(x)` calcula la exponencial de `x`, es decir, \(e^x\). Permite modelar crecimientos exponenciales y el cálculo de funciones matemáticas.
 
 * `matplot::linspace(double a, double b, int n)`  
   La función `linspace()` en Matplot++ genera un conjunto de `n` valores equiespaciados entre `a` y `b`. Se usa para definir rangos de valores en gráficos.
@@ -56,8 +40,20 @@ ________________________________________________________________________________
 * `matplot::iota(std::vector<double>& v, double start, double step)`  
   La función `iota()` en Matplot++ llena un vector con valores en un rango dado, comenzando desde `start` y aumentando en `step`. Se usa para generar secuencias numéricas de manera eficiente.
 
+* `matplot::meshgrid(std::vector<double>, std::vector<double>)`  
+  La función `meshgrid()` en Matplot++ genera dos matrices a partir de dos vectores de coordenadas, permitiendo crear mallas rectangulares para la visualización de superficies en gráficos 3D.
+
+* `matplot::plot(std::vector<double>, std::vector<double>)`  
+  La función `plot()` en Matplot++ grafica datos en 2D. Se usa para la visualización de funciones matemáticas y la representación de datos en gráficos.
+
+* `matplot::fplot(std::function<double(double)>, double, double)`  
+  La función `fplot()` en Matplot++ grafica una función matemática de forma automática en un intervalo dado, sin necesidad de discretizar los valores manualmente.
+
 * `matplot::quiver(std::vector<double>, std::vector<double>, std::vector<double>, std::vector<double>)`  
   La función `quiver()` en Matplot++ dibuja campos de vectores en 2D, útil para representar direcciones y magnitudes en diagramas vectoriales.
+
+* `matplot::hist(std::string, int n)->face_color({double a, double R, double G, double B})`  
+  La función `hist()` en Matplot++ crea un histograma con `n` columnas. `string` es el nombre del vector donde están guardados los datos. `face_color` define el color de las columnas, donde `a` representa la opacidad y `R`, `G`, `B` son los valores de color en la escala RGB (0.0 - 1.0).
 
 * `matplot::gradient(std::vector<double>)`  
   La función `gradient()` en Matplot++ calcula la derivada aproximada de un conjunto de datos, útil para analizar cambios en funciones discretas o aproximar pendientes.
@@ -70,6 +66,16 @@ ________________________________________________________________________________
 
 * `matplot::figure()`  
   La función `figure()` en Matplot++ crea una nueva ventana de gráfico, permitiendo visualizar diferentes gráficas en ventanas separadas o superpuestas.
+
+* `matplot::polarplot(std::vector<double>, std::vector<double>)`  
+  La función `polarplot()` en Matplot++ grafica datos en coordenadas polares, útil para representar funciones radiales y distribuciones angulares.
+
+* `matplot::colormap(std::string nombre)`  
+  La función `colormap()` en Matplot++ aplica un mapa de colores predefinido a gráficos de superficie, mejorando la visualización de variaciones de valores en gráficos 3D.
+
+* `matplot::xtickangle(double r)`  
+  La función `xtickangle()` en Matplot++ ajusta el ángulo de inclinación de las etiquetas del eje X en grados. También se puede usar `ytickangle(double r)` para el eje Y.
+
 
 
 ## Referencias
