@@ -30,7 +30,7 @@ Una vez se haya compilado el código quiere decir que se ha intalado correctamen
 
 Como se evidencia en la anterior imagen, el código de ejemplo compila y se ejecuta correctamente. De manera que la libreria se ha instalado correctamente. 
 ## Uso de funciones
-
+Para realizar ejemplos y evaluar los usos de la biblioteca, en los ejemplos realizados en la presentación se usaron las siguientes funciones y se realizó una breve descripción de las funciones que eran nuevas para graficar en Matplot++.
 * `std::exp(double x)`  
   La función `exp(x)` calcula la exponencial de `x`, es decir, \(e^x\). Permite modelar crecimientos exponenciales y el cálculo de funciones matemáticas.
 
