@@ -28,6 +28,17 @@ Una vez se haya compilado el código quiere decir que se ha intalado correctamen
 </p>
 
 Como se evidencia en la anterior imagen, el código de ejemplo compila y se ejecuta correctamente. De manera que la libreria se ha instalado correctamente. 
+## Uso de funciones
+* `std::exp(double x)`
+
+La función `exp(x)` calcula la exponencial de `x`, es decir, \(e^x\). Permite, modelar crecimientos exponenciales, y el cálculo de funciones matemáticas.
+
+* `matplot::plot(std::vector<double>, std::vector<double>)`
+
+La función `plot()` en Matplot++ grafica datos en 2D, se usa para la visualización de funciones matemáticas y la representación de datos en gráficos.
+
+* `matplot::linspace(double a, double b, int n)`
+Genera un conjunto de `n` valores equiespaciados entre `a` y `b`, sirve para definir un rango de valores para graficación o cálculo.
 
 ## Referencias
 
